@@ -174,8 +174,8 @@
   }
   .container {
     display: flex;
-    flex-align: space-between;
-    justify-direction:row;
+    align-items: space-between;
+    flex-direction:row;
   }
   .eduexp {
     width: 45%;
@@ -288,4 +288,4 @@
       text-align: center;
       margin: auto;
     }
-  
+}
