@@ -1,0 +1,291 @@
+.headertop {
+    background-color: #9031FF;
+    height: 3px;
+  }
+  .headerbottom {
+    background-color: #616161;
+    height: 1px;
+    margin-bottom: 50px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 60px;
+  }
+  nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #616161;
+    font-family: Lucida Sans;
+    margin: auto;
+  }
+  .current {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #9031FF;
+    font-family: Lucida Sans;
+    margin: auto;
+  }
+  .information {
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .leftside {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: left; 
+  }
+  .selfie {
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    margin: auto;
+  }
+  .overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+  }
+  .name {
+    font-size: 25px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+    margin: auto;
+  }
+  .occupation {
+    font-size: 20px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+    margin: auto;
+  }
+  .email1 {
+    font-size: 17px;
+    text-decoration: underline;
+    color: #9031FF;
+    font-family: Century Gothic;
+    margin: auto;
+  }
+  .seperation {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      border-right: 1px solid black;
+      border-color: silver;
+      margin-right: 50px
+    }
+  .rightside {
+    width: 45%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    width: 100%;
+  }
+  .about {
+    font-size: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+  }
+  .hello {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: Lucida Sans;
+    margin-top: 50px;
+  }
+  .things {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: Lucida Sans;
+    margin-top: 10px;
+  }
+  .notsure {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: Lucida Sans;
+    margin-top: 10px;
+  }
+  fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  input[type="checkbox"] {
+    display: inline-block;
+    margin: auto;
+    font-family: Lucida Sans;
+  }
+  .skillsrightside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px;
+  }
+  .skillsprogress {
+    width: 60%;
+    border-collapse: collapse;
+  }
+  .skills {
+    font-size: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+    margin-bottom: 50px;
+  }
+  .skillsa {
+    font-size: 25px;
+    color: dimgrey;
+    font-family: Lucida sans;
+  }
+  progress {
+    height: 50px;
+    width: 500px;
+    margin: auto;
+  }
+  .education {
+    font-size: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .container {
+    display: flex;
+    flex-align: space-between;
+    justify-direction:row;
+  }
+  .eduexp {
+    width: 45%;
+    font-size: 25px;
+    font-family: Lucida Sans;
+    text-align: left;
+  }
+  .date {
+    width: 45%;
+    font-size: 20px;
+    font-family: Lucida Sans;
+    text-align: right;
+  }
+  .location {
+    width: 45%;
+    font-size: 17px;
+    font-family: Lucida Sans;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  .place {
+    width: 45%;
+    font-size: 17px;
+    font-family: Lucida Sans;
+    text-align:right;
+  }
+  .credentials {
+    font-size: 17px;
+    font-family: Lucida Sans;
+    margin-top: 100px;
+  }
+  .experience {
+    font-size: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: left;
+  }
+  .leftofrightside {
+    width: 100%;
+    text-align: left;
+  }
+  .interests {
+    font-size: 40px;
+    text-decoration: none;
+    color: dimgrey;
+    font-family: Century Gothic;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: left;
+  }
+  li {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Lucida-sans;
+    width: 100%;
+    text-align: left;
+  }
+  .link {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #9031FF;
+    font-family: Lucida Sans;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    nav a,
+    .current {
+      font-size: 16px;
+    }
+    .information {
+      flex-direction: column;
+    }
+    .leftside {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+    .selfie {
+      width: 200px;
+      height: 200px;
+    }
+    .seperation {
+      display: none;
+    }
+    .rightside {
+      width: 100%;
+      text-align: center;
+      margin-left: 100px;
+    }
+    .hello {
+      font-size: 12px;
+    }
+    .things {
+      font-size: 12px;
+    }
+    .notsure {
+      font-size: 12px;
+    }
+    .leftofrightside {
+      text-align: center;
+    }
+    progress {
+      text-align: center;
+      margin: auto;
+    }
+  
